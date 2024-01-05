@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  mern-app:
+    container_name: mern-app
+    build: 
+      dockerfile: Dockerfile
+    ports: 
+      - 699:3000
